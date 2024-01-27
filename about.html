@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RE - About</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="shortcut icon" href="./project-1-img/favicon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="./aos.css">
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.min.css">
+</head>
+
+<body>
+    <!-- Modal Body for LOGIN-->
+    <!-- if you want to close by clicking outside the modal, delete the last endpoint:data-bs-backdrop and data-bs-keyboard -->
+    <div class="modal fade" id="loginId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog"
+        aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-md" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <p class="modal-title" id="modalTitleId">
+                        Welcome to <span class="text-primary h5">Real</span><span class="text-warning h5">Estate</span>
+                    </p>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="">
+                        <div class="d-lg-flex align-items-baseline justify-content-between p-3 ">
+                            <label for="" class="form-label">Username:</label>
+                            <input type="text" class="form-control w-75">
+                        </div>
+
+                        <div class="d-lg-flex gap-2 align-items-baseline justify-content-between p-3">
+                            <label for="" class="form-label">Password:</label>
+                            <input type="text" class="form-control w-75 ">
+                        </div>
+                        
+                        <div class="row mb-3 mt-3">
+                            <button class="col-3 m-auto btn btn-primary">Login</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        Close
+                    </button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <!-- start of navbar -->
+        <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top d-flex flex-column pb-0 ">
+            <div class="container">
+                <a class="navbar-brand text-warning" href="/index.html">
+                    <span class="text-primary">Real</span>Estate
+                </a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/index.html" aria-current="page">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" aria-current="page">About</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Services</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Sales</a>
+                                <a class="dropdown-item" href="#">Lease</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <i class="fa-solid fa-user"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <div type="" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#loginId">
+                                    Login
+                                </div>
+                                <a class="dropdown-item" href="/signup.html">Sign Up</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="d-flex my-2 my-lg-0">
+                        <input class="form-control me-sm-2" type="text" placeholder="Search" />
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                            Search
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Nav for scroll screen -->
+            <div class="w-100 ">
+                <nav id="nav-example" class="nav justify-content-center row bg-warning">
+                    <a href="#whyChooseUs" class="text-primary col-6 col-sm-3 border-primary border-top-0 border-bottom-0 rounded-0 btn">Why Choose Us</a>
+                    <a href="#meetOurTeam" class="text-primary col-6 col-sm-3 border-primary border-top-0 border-bottom-0 rounded-0 btn">Meet Our Team</a>
+                    <a href="#facts" class="text-primary col-6 col-sm-3 border-primary border-top-0 border-bottom-0 rounded-0 btn">Facts</a>
+                    <a href="#testimonies" class="text-primary col-6 col-sm-3 border-primary border-top-0 border-bottom-0 rounded-0 btn">Testimonies</a>
+                </nav>
+            </div>
+            <!-- End of scroll screen nav -->
+
+        </nav>
+        <!-- end of navbar -->
+
+
+        <!-- banner -->
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <li
+                    data-bs-target="#carouselId"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="First slide"
+                ></li>
+            </div>
+            <div class="carousel-inner" role="listbox">
+                <div class="active" id="banner">
+                    <img
+                        src="/project-1-img/about3.jpg"
+                        class="w-100 d-block"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="h1 text-warning" id="aboutTitleText">Who We Are</h2>
+                        <p class="aboutus text-white" id="aboutBannerText">Welcome to <span class="text-primary">Real</span><span class="text-warning">Estate</span>, where we turn dreams into addresses. Established 2024, we are a Lagos-based real estate agency dedicated to providing exceptional service, expert guidance, and a seamless experience for all your real estate needs.</p>
+                        <a href="#intro" id="nav-example" class="btn btn-warning text-primary text-decoration-underline">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of banner or hero -->
+
+    </header>
+    
+    <main class="">
+        <!-- Scroll Bar -->
+        <!-- <div class="row bg-warning" id="aboutUs">
+            <a href="#" class="text-primary col-6 col-sm-3 border-primary border-top-0 border-bottom-0 rounded-0 btn">Why Choose Us</a>
+            <a href="#" class="text-primary col-6 col-sm-3 border-primary border-top-0 border-bottom-0 rounded-0 btn">Meet Our Team</a>
+            <a href="#" class="text-primary col-6 col-sm-3 border-primary border-top-0 border-bottom-0 rounded-0 btn">Facts</a>
+            <a href="#" class="text-primary col-6 col-sm-3 border-primary border-top-0 border-bottom-0 rounded-0 btn">Testimonies</a>
+        </div> -->
+
+        <!-- Introduction -->
+        <!-- <div class="ps-5 pe-5 mt-3" id="intro">
+            <h2><span class="text-primary">Real</span><span class="text-warning">Estate</span></h2>
+            <p class="text-secondary">We embark on a journey to redefine real estate services. Every transaction is an opportunity to make a positive impact, and every client relationship is a testament to our commitment to excellence. Together, we shape a future where dreams are realized, communities thrive, and we stand as a symbol of trust, innovation, and unparalleled service in the world of real estate.</p>
+        </div> -->
+
+        <!-- Vision and mission statement -->
+        <!-- <section class="container-fluid p-5 pt-2 ">
+            <div class="row gy-4">
+                <div class="col-12 col-sm-12 col-lg-6">
+                    <div class="card bg-secondary text-white" data-aos="fade-out" data-aos-duration="3000">
+                        <div class="card-body" id="vision">
+                            <h3 class="card-title text-warning">Vision</h3>
+                            <p class="card-text"><span class="text-primary">Real</span><span class="text-warning">Estate</span> envisions a future where every individual and family finds their perfect home, and every property seller achieves the best possible outcome. We are committed to being the premier choice for real estate solutions in Nigeria, known for our unwavering dedication to client success, innovation, and community impact.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-lg-6">
+                    <div class="card bg-secondary text-white" data-aos="fade-out" data-aos-duration="3000">
+                        <div class="card-body" id="mission">
+                            <h3 class="card-title text-warning">Mission</h3>
+                            <p class="card-text">At <span class="text-primary">Real</span><span class="text-warning">Estate</span>, our mission is simple yet profound: to empower individuals and families to find their perfect homes and to assist sellers in achieving the best outcomes for their properties. We believe that real estate is not just about transactions; it's about helping our clients embark on new chapters of their lives.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section> -->
+        <!-- end of vision and mission -->
+
+
+        <!-- Meet our team -->
+        <!-- <nav id="nav-example" class="nav justify-content-center row bg-warning">
+            <a href="#" class="text-primary col-6 col-sm-3 border-primary border-top-0 border-bottom-0 rounded-0 btn">Why Choose Us</a>
+            <a href="#" class="text-primary col-6 col-sm-3 border-primary border-top-0 border-bottom-0 rounded-0 btn">Meet Our Team</a>
+            <a href="#" class="text-primary col-6 col-sm-3 border-primary border-top-0 border-bottom-0 rounded-0 btn">Facts</a>
+            <a href="#" class="text-primary col-6 col-sm-3 border-primary border-top-0 border-bottom-0 rounded-0 btn">Testimonies</a>
+        </nav> -->
+        <div>
+            <div
+                data-bs-spy="scrollto"
+                data-bs-target="#nav-example"
+                data-bs-smooth-scroll="true"
+                tabindex="0"
+            >
+                <!-- Introduction -->
+                <section id="intro" class="container pb-5 pt-5">
+                    <div class="mt-5">
+                        <h2 class="mb-3"><span class="text-primary">Real</span><span class="text-warning">Estate</span></h2>
+                        <p class="text-secondary">We embark on a journey to redefine real estate services. Every transaction is an opportunity to make a positive impact, and every client relationship is a testament to our commitment to excellence. Together, we shape a future where dreams are realized, communities thrive, and we stand as a symbol of trust, innovation, and unparalleled service in the world of real estate.</p>
+                    </div>
+                
+                    <!-- Vision and mission statement -->
+                    <section class="mt-5">
+                        <div class="row gy-4">
+                            <div class="col-12 col-sm-12 col-lg-6">
+                                <div class="card bg-secondary text-white" data-aos="fade-out" data-aos-duration="3000">
+                                    <div class="card-body" id="vision">
+                                        <h3 class="card-title text-warning">Vision</h3>
+                                        <p class="card-text"><span class="text-primary">Real</span><span class="text-warning">Estate</span> envisions a future where every individual and family finds their perfect home, and every property seller achieves the best possible outcome. We are committed to being the premier choice for real estate solutions in Nigeria, known for our unwavering dedication to client success, innovation, and community impact.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="col-12 col-sm-12 col-lg-6">
+                                <div class="card bg-secondary text-white" data-aos="fade-out" data-aos-duration="3000">
+                                    <div class="card-body" id="mission">
+                                        <h3 class="card-title text-warning">Mission</h3>
+                                        <p class="card-text">At <span class="text-primary">Real</span><span class="text-warning">Estate</span>, our mission is simple yet profound: to empower individuals and families to find their perfect homes and to assist sellers in achieving the best outcomes for their properties. We believe that real estate is not just about transactions; it's about helping our clients embark on new chapters of their lives.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+                    <!-- end of vision and mission -->
+
+                </section>
+                 <!--End of introduction  -->
+
+
+                 <!-- Why choose us -->
+                <div id="whyChooseUs" class="container-fluid p-4 bg-primary-subtle pt-5" style="text-align:justify">
+                    <div class="text-primary pt-5">
+                        <h2 style="text-align: center;">WHY CHOOSE US</h2>
+                    </div>
+                    <div class="row gy-4 mt-4">
+                        <div class="col col-sm-6 col-lg-4">
+                            <div class="card" style="min-height: 30vh;">
+                                <div class="card-body bg-warning-subtle">
+                                    <h5 class="card-title text-primary">Expertise</h5>
+                                    <p class="card-text">Navigating various market conditions, we are well-versed in the intricacies of Nigeria's real estate. With an in-depth understanding of the local real estate landscape coupled with our global network, we offer a unique advantage in connecting buyers with the right properties.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-sm-6 col-lg-4">
+                            <div class="card" style="min-height: 30vh;">
+                                <div class="card-body bg-warning-subtle">
+                                    <h5 class="card-title text-primary">Client-Centric Approach</h5>
+                                    <p class="card-text">Our clients are at the heart of everything we do. We listen attentively to understand their unique needs and preferences, tailoring our services to meet and exceed expectations. Your satisfaction is our ultimate goal.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-sm-6 col-lg-4">
+                            <div class="card" style="min-height: 30vh;">
+                                <div class="card-body bg-warning-subtle">
+                                    <h5 class="card-title text-primary">Innovation and Adaptability</h5>
+                                    <p class="card-text">Embracing innovation, we aim to be at the forefront of industry trends and technological advancements. We continuously evolve to meet the changing needs of our clients and the real estate landscape.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-sm-6 col-lg-4">
+                            <div class="card" style="min-height: 30vh;">
+                                <div class="card-body bg-warning-subtle">
+                                    <h5 class="card-title text-primary">Community Enrichment</h5>
+                                    <p class="card-text">Our vision extends beyond transactions. We envision playing an active role in enhancing the communities we serve. Through philanthropy, sustainability initiatives, and community engagement, we aim to contribute positively to Nigeria.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-sm-6 col-lg-4">
+                            <div class="card" style="min-height: 30vh;">
+                                <div class="card-body bg-warning-subtle">
+                                    <h5 class="card-title text-primary">Industry Leadership</h5>
+                                    <p class="card-text">Aspire to be recognized as leaders in the real estate industry, setting benchmarks for professionalism, integrity, and innovation. We are dedicated to fostering a culture of continuous learning and growth among our team members.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-sm-6 col-lg-4">
+                            <div class="card" style="min-height: 30vh;">
+                                <div class="card-body bg-warning-subtle">
+                                    <h5 class="card-title text-primary">Global Impact with Local Roots</h5>
+                                    <p class="card-text">While we have a global perspective, our roots are firmly planted in the local soil. We aspire to be the bridge that connects individuals and families with their dream homes, ensuring a sense of belonging in the heart of Nigeria.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- End of why choose us -->
+
+
+                <div id="meetOurTeam" class="bg-light" style="height: 100vh">
+                    team
+                </div>
+
+                <div id="facts" class="bg-light" style="height: 100vh">
+                    facts
+                </div>
+
+                <div id="testimonies" class="bg-light" style="height: 100vh">
+                    testimonies
+                </div>
+            </div>
+        </div>
+        
+        <!-- End of Meet our team -->
+
+    </main>
+
+    <footer>
+        <div class="container-fluid p-5 pt-3 pb-3 bg-warning ">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-3 text-primary">
+                    <h5 class="text-secondary">Products:</h5>                    
+                    <ul class="list-unstyled">
+                        <li>> Flats</li>
+                        <li>> Duplexes</li>
+                        <li>> Office space</li>
+                        <li>> Sales outlets</li>
+                        <li>> Warehouses</li>
+                        <li>> Filling stations</li>
+                        <li>> Shopping complex</li>
+                        <li>> Plots of land</li>
+                        <li>> Acres of land</li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 text-primary">
+                    <h5 class="text-secondary">Services:</h5>                    
+                    <ul class="list-unstyled">
+                        <li>> Sales</li>
+                        <li>> Lease</li>
+                        <li>> Estate management</li>
+                        <li>> Building evaluation</li>
+                        <li>> Building construction</li>
+                        <li>> Facility management</li>
+                        <li>> Documentation</li>
+                        <li>> Project supervision</li>
+                        <li>> Materials supply</li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <h5 class="text-secondary ">Social Media:</h5>                    
+                    <ul class="list-unstyled d-flex flex-column gap-3">
+                        <a href="#"><img src="/project-1-img/facebook.png" width="30" alt="">Facebook</a>
+                        <a href="#"><img src="/project-1-img/x.png" width="30" alt="">Twitter</a>
+                        <a href="#"><img src="/project-1-img/instagram.png" width="30" alt="">Instagram</a>
+                        <a href="#"><img src="/project-1-img/linkedin.png" width="30" alt="">LinkedIn</a>
+                        <a href="#"><img src="/project-1-img/youtube.png" width="30" alt="">YouTube</a>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 text-primary ">
+                    <h5 class="text-secondary">Visit Us</h5>
+                    <div>                   
+                        <p><i class="fa-solid fa-building"></i>
+                            : Plot 201, Albert Montori Avenue off Moshood Abiola Road, 
+                            Conventry City, Lagos, Nigeria.
+                        </p>
+
+                        <p><i class="fa-solid fa-phone"></i>
+                            234-Real-Estate or
+                            +234-01-Real-Est
+                        </p>
+
+                        <p><i class="fa-solid fa-earth"></i>
+                            <a href="#" class="text-decoration-none">www.realestate.com</a>
+                        </p>
+
+                        <p><i class="fa-solid fa-envelope"></i>
+                            info@realestate.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-between gap-2 ">
+                <img src="/project-1-img/facebook.png" alt="" width="30" />
+                <img src="/project-1-img/x.png" alt="" width="30" />
+                <img src="/project-1-img/instagram.png" alt="" width="30" />
+                <img src="/project-1-img/linkedin.png" alt="" width="30" />
+                <img src="/project-1-img/youtube.png" alt="" width="30" />
+            </div>
+            <div class="flex-grow-1 ms-3">
+                <h5 class="mt-0">Media heading</h5>
+                <p>
+                    This is some content from a media component. You can replace
+                    this with any content and adjust it as needed.
+                </p>
+            </div>
+        </div> -->
+        
+    </footer>
+
+
+
+    <script src="fontawesome-free-6.4.2-web/js/all.min.js"></script>
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
