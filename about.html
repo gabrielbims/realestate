@@ -54,7 +54,7 @@
 
     <header>
         <!-- start of navbar -->
-        <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top d-flex flex-column pb-0 ">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top d-flex flex-column pb-0">
             <div class="container">
                 <a class="navbar-brand text-warning" href="/index.html">
                     <span class="text-primary">Real</span>Estate
@@ -72,6 +72,7 @@
 
                         <li class="nav-item">
                             <a class="nav-link" href="#" aria-current="page">About</a>
+                            bs5n
                         </li>
 
                         <li class="nav-item dropdown">
@@ -108,20 +109,19 @@
                     </form>
                 </div>
             </div>
-
-            <!-- Nav for scroll screen -->
-            <div class="w-100 ">
-                <nav id="nav-example" class="nav justify-content-center row bg-warning">
-                    <a href="#whyChooseUs" class="text-primary col-6 col-sm-3 border-primary border-top-0 border-bottom-0 rounded-0 btn">Why Choose Us</a>
-                    <a href="#meetOurTeam" class="text-primary col-6 col-sm-3 border-primary border-top-0 border-bottom-0 rounded-0 btn">Meet Our Team</a>
-                    <a href="#facts" class="text-primary col-6 col-sm-3 border-primary border-top-0 border-bottom-0 rounded-0 btn">Facts</a>
-                    <a href="#testimonies" class="text-primary col-6 col-sm-3 border-primary border-top-0 border-bottom-0 rounded-0 btn">Testimonies</a>
-                </nav>
-            </div>
-            <!-- End of scroll screen nav -->
-
         </nav>
         <!-- end of navbar -->
+
+
+        <!-- Nav for scroll screen -->
+        <nav id="nav-example" class="nav justify-content-center row bg-warning d-flex flex-column position-fixed z-1 mt-5">
+            <a href="#whyChooseUs" class="text-primary btn">Why Choose Us</a>
+            <a href="#meetOurTeam" class="text-primary btn">Meet Our Team</a>
+            <a href="#facts" class="text-primary btn">Facts</a>
+            <a href="#testimonies" class="text-primary btn">Testimonies</a>
+            <!-- col-6 col-sm-3 border-primary border-top-0 border-bottom-0 rounded-0 -->
+        </nav>
+        <!-- End of scroll screen nav -->
 
 
         <!-- banner -->
@@ -323,7 +323,7 @@
     </main>
 
     <footer>
-        <div class="container-fluid p-5 pt-3 pb-3 bg-warning ">
+        <div class="container-fluid p-5 pt-3 pb-3 bg-primary-subtle">
             <div class="row">
                 <div class="col-12 col-sm-6 col-lg-3 text-primary">
                     <h5 class="text-secondary">Products:</h5>                    
